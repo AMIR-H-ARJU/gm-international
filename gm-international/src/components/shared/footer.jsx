@@ -53,7 +53,7 @@ export default function Footer() {
         <hr className="" />
         <div className="flex  mt-2 justify-between">
           <div className="font-bold">Terms & Conditions</div>
-          <div className="font-semibold text-slate-300">All Rights Reserved by <span className="font-semibol text-white/70"> &copy;</span>Gm-Internmational 2025 </div>
+          <div className="font-semibold text-slate-300">All Rights Reserved by <span className="font-semibol text-white/70"> &copy;</span>Gm-International 2025 </div>
           <div className="font-bold">Privacy Policy</div>
         </div>
       </div>

@@ -4,14 +4,14 @@ import union2 from "../../assets/pictures/Union 4.png";
 export default function Support() {
   return (
     <>
-      <div className="mt-20 mb-40">
+      <div className="mt-20 mb-40 max-w-5xl mx-auto">
         <div className="mt-6">
-          <img src={union} alt="Slide 1" className="object-cover  w-80 h-70 " />
+          <img src={union} alt="Slide 1" className="object-cover -translate-x-20  w-80 h-70 " />
           <div className="   absolute  ">
             <div className="text-6xl">
               <img
                 src={union2}
-                className="h-70 translate-x-170 -translate-y-75"
+                className="h-70 translate-x-200 -translate-y-75"
                 alt=""
               />
             </div>

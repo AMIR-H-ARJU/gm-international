@@ -1,4 +1,4 @@
-// import { Carousel } from "react-responsive-carousel";
+import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import Slide1 from "../../assets/pictures/Group 308.png";
 import { FaArrowRight } from "react-icons/fa";
@@ -10,13 +10,13 @@ import { motion } from "framer-motion";
 
 export default function Banner() {
   return (
-    // <Carousel
-    // //   showArrows={true}
-    // //   infiniteLoop={true}
-    // //   showThumbs={false}
-    // //   showStatus={false}
-    // //   autoPlay={true}
-    // //   interval={5000}
+    // <Carousel                                  
+    //   showArrows={true}
+    //   infiniteLoop={true}
+    //   showThumbs={false}
+    //   showStatus={false}
+    //   autoPlay={true}
+    //   interval={5000}
     // >
     <>
       <div className=" mt-6">
@@ -44,7 +44,7 @@ export default function Banner() {
             />
             <h2 className="translate-x-90 translate-y-20 text-black font-semibold">
               We Provide You Best <br />
-              <span className="text-red-600 font-bold">International</span>{" "}
+              <span className="text-red-600 font-bold">International</span>
               Deals
               <p className="text-xl  text-slate-240 text-center -translate-x-20 mt-4">
                 Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router-dom";
 // import Contact from "../pages/Contact";
 import RootThings from "../layout/RootThings";
 import Home from "../components/home/home";
+import MedHome from "../components/Medical/MedHome";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,13 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Home,
+        Component: Home
+      },
+      {
+        path:'medical',
+        Component:MedHome
       }
+
     ],
   },
 ]);

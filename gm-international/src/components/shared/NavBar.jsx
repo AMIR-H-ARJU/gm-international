@@ -20,11 +20,12 @@ const Navbar = () => {
 
           {/* Middle: Nav Links */}
           <div className="hidden md:flex space-x-6 items-center font-semibold ">
-            <span className="cursor-pointer text-gray-700  hover:text-red-600">Home</span>
+            <NavLink to='/'><span className="cursor-pointer text-gray-700  hover:text-red-600">Home</span></NavLink>
             <span className="cursor-pointer text-gray-700  hover:text-red-600">Services</span>
             <span className="cursor-pointer text-gray-700  hover:text-red-600">Social Media</span>
             <span className="cursor-pointer text-gray-700  hover:text-red-600">Find Us </span>
             <span className="cursor-pointer text-gray-700  hover:text-red-600">About Us </span>
+          <NavLink to='/medical'>Medical</NavLink>
           </div>
 
           {/* Right: Hotline & Login */}
